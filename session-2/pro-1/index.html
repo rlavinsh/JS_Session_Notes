@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h2>User details</h2>
+    <form id="user">
+      <label for="firstname">FirstName:</label>
+      <input type="text" id="firstname" name="firstname" required />
+      <br /><br />
+      <label for="lastname">LastName</label>
+      <input type="text" id="lastname" name="lastname" />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" />
+      <br /><br />
+      <label for="gender">Gender</label>
+      <br /><br />
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <br /><br />
+      <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="austallia">Australia</option>
+      </select>
+      <br /><br />
+      <button type="submit">Register</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
